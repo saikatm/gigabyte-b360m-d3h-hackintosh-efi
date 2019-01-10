@@ -41,7 +41,7 @@ After Installing MacOS on your system copy my clover folder to your EFI Partitio
 
 ### Post Installation
 Fix USB 3 Ports
-[How to Stay within 15 ports limit using UsbInjectall and Clover boot argument]
+[How to Stay within 15 ports limit using UsbInjectall and Clover boot argument](https://olarila.com/forum/viewtopic.php?f=79&t=7370&fbclid=IwAR0aba59fTABiOx2hLesroLLHOTl8rAQQwQ-d0bpPm4LZ3UNovBrGdjyEb8)
 
 <strike>Sound</strike> (ALC892)
 _Sound should be working obb if you use my clover folder._
