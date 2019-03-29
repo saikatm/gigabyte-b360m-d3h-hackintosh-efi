@@ -203,8 +203,10 @@
 		<dict>
 			<key>AFGLowPowerState</key>
 			<false/>
+			<key>Inject</key>
+			<integer>1</integer>
 			<key>ResetHDA</key>
-			<false/>
+			<true/>
 		</dict>
 		<key>LANInjection</key>
 		<false/>
@@ -519,7 +521,7 @@
 		<key>BoardManufacturer</key>
 		<string>Apple Inc.</string>
 		<key>BoardSerialNumber</key>
-		<string>XX-MASKED-XX</string>
+		<string>C02V9WZ7J1G5J0DX1M</string>
 		<key>BoardType</key>
 		<integer>10</integer>
 		<key>BoardVersion</key>
@@ -549,9 +551,9 @@
 		<key>ProductName</key>
 		<string>iMac18,2</string>
 		<key>SerialNumber</key>
-		<string>XX-MASKED-XX</string>
+		<string>C02V9WZ7J1G5</string>
 		<key>SmUUID</key>
-		<string>XX-MASKED-XX</string>
+		<string>873033C2-B8CF-443D-9EC3-4B65D68ADD8A</string>
 		<key>Version</key>
 		<string>1.0</string>
 	</dict>
