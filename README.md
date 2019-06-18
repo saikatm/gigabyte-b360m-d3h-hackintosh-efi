@@ -20,6 +20,8 @@ Almost Everything.
 - All USB ports (including USB 3)
 - App Store
 
+
+
 ### Install Guide
 I made the installer on Windows using Olarila Mojave image & used [Etcher.app](https://www.balena.io/etcher/)
 Download Olarila Image From the Forum with [Installation Guide](http://olarila.com/forum/viewtopic.php?f=51&t=6743):
@@ -45,3 +47,12 @@ Fix USB 3 Ports
 
 <strike>Sound</strike> (ALC892)
 _Sound should be working obb if you use my clover folder._
+
+
+
+### Screenshots
+
+![Audio](/Screenshots/audio.png)
+![Ethernet](/Screenshots/ethernet.png)
+![Graphics](/Screenshots/graphics.png)
+![USB 3](/Screenshots/usb.png)
