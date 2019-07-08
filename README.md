@@ -1,61 +1,71 @@
+# My Github Page for Clover Folder
 
-Hackintosh Mojave Installation Guide for Gigabyte B360M D3H Hackintosh & Clover EFI Folder 
+Hackintosh Mojave Installation Guide for Gigabyte B360M D3H Hackintosh & Clover EFI Folder
 
-### My System Hardware
-![About My Mac](about-mac.png)
+⚠️  **Please Read the whole readme file for better understanding. Also I will share some tips and tricks.**
 
-- CPU: Intel i3 8100 
-- Motherboard: Gigabyte B360M-D3H 
-- Memory: G.Skill DDR4 8GB x 2 
-- GPU: Sapphire Radeon RX 560 4GB
+## **My  Hardware**
 
-### What's Working?
-Everything.
-100% Stable
+- **CPU**: Intel i3 8100
+- **GPU**: Sapphire Radeon RX 560 4GB
+- **Motherboard**: Gigabyte B360M-D3H
 
-##### Working
-- Sleep/Wake 
+### **What's Working?**
+
+- Sleep/Wake
 - Ethernet
-- Audio (including digital audio) [native applALC audio]
-- iGPU + RX 560 GPU
-- All USB ports (including USB 3)
-- App Store
+- Audio ALC892 (native AppleALC audio)
+- iGPU Quick Sync + RX 560 GPU
+- All USB ports (USB 2 + USB 3)
 
-### Install Guide
+    ![](about.png)
 
-### VERY IMPORTANT NOTE: 
-if you USB ports do not work after using my clover folder then open the config.plist file with clover configurator and remove this **(uia_exclude=HS02;HS03;HS09;HS10;HS12;HS13;HS14;HS15;SS02;SS03)**  string from boot argus.
+### **Install Guide**
 
+- [Olarila Installation](https://olarila.com/forum/viewforum.php?f=50) (easy and noob friendly)
 
-I made the installer on Windows using Olarila Mojave image & used [Etcher.app](https://www.balena.io/etcher/)
-Download Olarila Image From the Forum with [Installation Guide](http://olarila.com/forum/viewtopic.php?f=51&t=6743):
-Or You can Use a Vanilla Guide but Olarila is faster but both are Vanilla. (olarila is highly recommended) 
+OR
 
-### Bios Settings: 
-	•	Load optimised default 
-	•	Disable CSM 
-	•	Disable Fast 
-	•	Enable Internal Graphics & VT-D 
-	•	Disable only serial port (first option) 
+- [Vanilla Installation](https://hackintosh.gitbook.io/-r-hackintosh-vanilla-desktop-guide/) (hard for beginners)
 
-After Installing MacOS on your system copy my clover folder to your EFI Partition and Open the config.plist make sure you set the following:
-- SerialNumber
-- BoardSerialNumber
-- SmUUID
+### Pre-Installation
 
-**Also Depending on your CPU Choose the Right SMBIOS.**
+I made the installer on Windows using **Olarila** Mojave image & used [Etcher.app](https://www.balena.io/etcher/) Download Olarila Image From the Forum with [Installation Guide](http://olarila.com/forum/viewtopic.php?f=51&t=6743): Or You can Use a Vanilla Guide but Olarila is faster but both are Vanilla. (***Olarila is highly recommended***)
+
+### First Proper BIOS Setting is needed for the macOS to boot:
+
+- Load optimised default
+- Disable CSM
+- Disable Fast
+- Enable Internal Graphics & VT-D
+- Disable only serial port (first option)
+
+Now **Read The More Detailed Installation Guide [Here](https://olarila.com/forum/viewtopic.php?f=50&t=8685).** *(as re-writing the same thing is waste of time)*
 
 ### Post Installation
-Fix USB 3 Ports
-[How to Stay within 15 ports limit using UsbInjectall and Clover boot argument](https://olarila.com/forum/viewtopic.php?f=79&t=7370&fbclid=IwAR0aba59fTABiOx2hLesroLLHOTl8rAQQwQ-d0bpPm4LZ3UNovBrGdjyEb8)
 
-<strike>Sound</strike> (ALC892)
-_Sound should be working obb if you use my clover folder._
+After Installing MacOS on your system copy my clover folder to your EFI Partition and Open the config.plist make sure you do the following:
 
+- Set SMBIOS to **iMAC 18'2** or **iMAC 19'2** for i3-8100 (*Depending on your CPU Choose the Right SMBIOS)*
+- Get a Patched DSDT.aml for your hackintosh from [Olarila Forum](https://olarila.com/forum/viewtopic.php?t=6401) (Must Needed for a stable and working hackintosh)
+- Update the Kext to the latest version
+- Generate  in Clover Configurator: **SerialNumberBoard, SerialNumber, SmUUID**
+
+**💡 The Setup is 100% Stable! I have never faced any kernel panic or reboot.**
+
+### Post Installation Tips
+
+## Links:
+
+ [How to Stay within 15 ports limit using UsbInjectall and Clover boot argument](https://olarila.com/forum/viewtopic.php?f=79&t=7370&fbclid=IwAR0aba59fTABiOx2hLesroLLHOTl8rAQQwQ-d0bpPm4LZ3UNovBrGdjyEb8)
+[[Guide] Easy Audio Solution with AppleAlc](https://olarila.com/forum/viewtopic.php?f=28&t=9788)
+[HACKINTOSH IMESSAGE + ICLOUD + FACETIME REPAIR GUIDE](https://hackintosher.com/guides/quick-fixes-facetime-icloud-imessage-hackintosh-not-working/)
+[Hide Volumes / Extra Boot Entries With Clover Config](https://olarila.com/forum/viewtopic.php?f=28&t=7451#p66199)
 
 
 ### Screenshots
 
+![Quick Sync](quicsync.png)
 ![Audio](/Screenshots/audio.png)
 ![Ethernet](/Screenshots/ethernet.png)
 ![Graphics](/Screenshots/graphics.png)
