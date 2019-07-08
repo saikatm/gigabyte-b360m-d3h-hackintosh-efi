@@ -1,6 +1,5 @@
-# My Github Page for Clover Folder
 
-Hackintosh Mojave Installation Guide for Gigabyte B360M D3H Hackintosh & Clover EFI Folder
+#Hackintosh Mojave Installation Guide for Gigabyte B360M D3H Hackintosh & Clover EFI Folder
 
 ⚠️  **Please Read the whole readme file for better understanding. Also I will share some tips and tricks.**
 
