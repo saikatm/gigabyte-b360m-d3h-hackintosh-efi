@@ -18,7 +18,7 @@ Hackintosh Mojave Installation Guide for Gigabyte B360M D3H Hackintosh & Clover 
 - iGPU Quick Sync + RX 560 GPU
 - All USB ports (USB 2 + USB 3)
 
-    ![](Screenshot_2019-07-08_19-cedbe371-f315-4059-9442-25895c874ec0.49.25.png)
+    ![](/Screenshots/about.png)
 
 ### **Install Guide**
 
@@ -69,7 +69,7 @@ After Installing MacOS on your system copy my clover folder to your EFI Partitio
 Intel Quick Sync Works
 ### Screenshots
 
-![Quick Sync](quicsync.png)
+![Quick Sync](/Screenshots/quicsync.png)
 ![Audio](/Screenshots/audio.png)
 ![Ethernet](/Screenshots/ethernet.png)
 ![Graphics](/Screenshots/graphics.png)
